@@ -8,24 +8,17 @@ interface DropDownProps {
 export const DropDown: React.FC<DropDownProps> = ({ setDropDown }) => {
   // const useOutsideAlerter = (ref) => {
   //   useEffect(() => {
-  //     /**
-  //      * Alert if clicked on outside of element
-  //      */
   //     function handleClickOutside(event) {
-  //       if ((ref.current && !ref.current.contains(event.target)) || document.getElementById('twit').contains) {
+  //       if (ref.current && !ref.current.contains(event.target)) {
   //         setDropDown(false);
   //       }
   //     }
-
-  //     // Bind the event listener
   //     document.addEventListener("mousedown", handleClickOutside);
   //     return () => {
-  //       // Unbind the event listener on clean up
   //       document.removeEventListener("mousedown", handleClickOutside);
   //     };
   //   }, [ref]);
   // }
-
   // const wrapperRef = useRef(null);
   // useOutsideAlerter(wrapperRef);
 

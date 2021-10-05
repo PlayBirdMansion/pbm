@@ -8,7 +8,7 @@ interface MintBannerProps {
 
 export const MintBanner: React.FC<MintBannerProps> = ({ }) => {
   return (
-    <div className='flex flex-col sm:flex-row w-full mt-12 mb-8 p-6 items-center bg-gradient-to-br to-[#0CF2FF] from-[#F709FF] text-white'>
+    <div className='flex flex-col sm:flex-row w-full mt-12 p-6 items-center bg-gradient-to-br to-[#0CF2FF] from-[#F709FF] text-white'>
       <div className='flex p-3 sm:w-1/3 justify-center'>
         <div className=' font-bold text-[2rem] items-center text-center'>
           Join The Party!

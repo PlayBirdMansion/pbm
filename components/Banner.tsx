@@ -3,13 +3,13 @@ import Image from 'next/image'
 import banner from '../public/banner.png'
 
 interface BannerProps {
-
+  image: any
 }
 
-export const Banner: React.FC<BannerProps> = ({ }) => {
+export const Banner: React.FC<BannerProps> = ({ image }) => {
   return (
     <div className='top-0 relative z-0'>
-      <Image src={banner} layout='responsive' />      
+      <Image src={image} layout='responsive' />      
     </div>
   )
 }

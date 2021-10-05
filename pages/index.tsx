@@ -13,6 +13,8 @@ import { Roadmap } from '../components/Roadmap'
 import { Referral } from '../components/Referral'
 import { Team } from '../components/Team'
 import { Perks } from '../components/Perks'
+import banner_outside from '../public/banner.png'
+import banner_inside from '../public/banner2.png'
 
 const Header = dynamic(() =>
   import('../components/Header').then(mod => mod.Header),
@@ -34,11 +36,12 @@ const Home: NextPage = () => {
 
       <div className='relative'>
 
-        <Banner />
+        <Banner image={banner_outside} />
 
         <Welcome />
         <Slider />
         <MintBanner />
+        <Banner image={banner_inside} />
         {/* <MintApp /> */}
         <div id='roadmapScroll'><Roadmap /></div>
         <Perks />

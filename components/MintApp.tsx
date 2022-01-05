@@ -130,7 +130,7 @@ export const MintApp: React.FC<MintAppProps> = ({ }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     let amount = amountOfBirds.current.value;
-    let total = amount * 10; // convert to wei
+    let total = amount * 0; // convert to wei
 
     if (referralAddress !== null && referralAddress.value !== '') {
       if (referralAddress.value === account) {
@@ -186,6 +186,7 @@ export const MintApp: React.FC<MintAppProps> = ({ }) => {
                   placeholder='(Optional) Referral Address'
                   onChange={checkReferralStatus}
                   ref={(input) => { setReferralAddress(input) }}
+                  disabled
                 />
               }
             </div>
@@ -193,16 +194,10 @@ export const MintApp: React.FC<MintAppProps> = ({ }) => {
           </form>
         </div>
         <div className='pt-2 font-semibold text-[1.15rem] leading-none mt-3'>
-          Price: 10 MATIC / Bird
+          Price: FREE
         </div>
         <div className='leading-none py-2 font-extralight text-[.75rem]'>
           Max: 20 Birds per Transaction
-        </div>
-        <div className='pt-2 text-[.85rem] font-medium'>
-          Use a referral address for a 1 MATIC discount.
-        </div>
-        <div className='text-[.75rem] mb-2 leading-none font-extralight'>
-          You may only use a referral once.
         </div>
         <div className='py-2'>
           {tokensLeft !== 0 ? <h3 className='my-1 font-semibold'>{(tokensLeft).toString()}/6969 Birds Remaining</h3> : null}

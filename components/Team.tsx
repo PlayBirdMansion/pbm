@@ -39,7 +39,7 @@ export const Team: React.FC<TeamProps> = ({ }) => {
         </div>
         <div className='justify-center flex px-3 py-4 sm:py-0 sm:w-1/3'>
           <div className=' font-bold text-[2rem] items-center text-center'>
-            <a href='https://twitter.com/snrou' target='_blank' rel="noreferrer"><Image src={nojus} width='222' height='222' className='rounded-3xl' /></a>
+            <a href='https://twitter.com/0xuint' target='_blank' rel="noreferrer"><Image src={nojus} width='222' height='222' className='rounded-3xl' /></a>
             <div className='font-medium text-[1.2rem] text-center items-center text-white'>
             Nojus
             </div>

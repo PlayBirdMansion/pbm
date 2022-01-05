@@ -42,12 +42,7 @@ const Home: NextPage = () => {
         <Slider />
         <MintBanner />
         <Banner image={banner_inside} />
-        {/* <MintApp /> */}
-        <div id='roadmapScroll'><Roadmap /></div>
-        <Perks />
-        <Referral />
-        <div id='teamScroll'><Team /></div>
-
+        
         <Footer />
       </div>
     </>

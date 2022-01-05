@@ -1,6 +1,9 @@
 {
   "name": "play-bird-mansion",
-  "author": "snrou",
+  "author": {
+    "name": "nojus",
+    "url": "https://nojus.dev/"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {

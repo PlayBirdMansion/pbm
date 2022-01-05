@@ -19,12 +19,9 @@ export const MintBanner: React.FC<MintBannerProps> = ({ }) => {
       </div>
       <div className='flex p-3 sm:w-1/3 justify-center'>
         <div className=' font-bold text-[2rem] items-center text-center'>
-          10 MATIC
+          Free Mint!
           <div className='font-normal text-[1.2rem] text-center items-center'>
-            Use a Referral Address from a current Play Bird holder for a 1 MATIC discount!
-          </div>
-          <div className='font-normal text-[.88rem] text-center items-center underline'>
-            Referral Contest details below.
+            Play Bird Mansion NFTs are now Free! Just pay the small gas fee.
           </div>
         </div>
       </div>

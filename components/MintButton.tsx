@@ -10,14 +10,15 @@ export const MintButton: React.FC<MintButtonProps> = ({ title, style }) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
-    <div>
+    <a href='https://opensea.io/collection/playbirdmansion' target='_blank' rel="noreferrer">
       <button className={style}
-        onClick={() => {
-          setModalOpen(true);
-          }}>
-        {title}
+         // onClick={() => {
+        //   setModalOpen(true);
+        //   }}>
+      >
+        Buy on OpenSea
       </button>
-      {modalOpen && <MintModal setOpenModal={setModalOpen} />}
-    </div>
+      {/* {modalOpen && <MintModal setOpenModal={setModalOpen} />} */}
+    </a>
   )
 }

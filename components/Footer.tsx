@@ -10,9 +10,9 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ }) => {
   return (
-    <footer className='text-white flex flex-col items-center justify-center text-f1 pb-3 font-light mt-24'>
-      <div className='flex flex-row'>
-        <a href={'https://twitter.com/PlayBirdMansion'} target='_blank' rel="noreferrer">
+    <footer className='text-white flex flex-col items-center justify-center text-f1 pb-3 font-light mt-12'>
+      <div className='flex flex-row py-4'>
+        <a href={'https://twitter.com/0xuint'} target='_blank' rel="noreferrer">
           <TwitterFill size='30' />
         </a>
         <div className='py-4 px-2' />
@@ -25,11 +25,11 @@ export const Footer: React.FC<FooterProps> = ({ }) => {
         </a>
         
       </div>
-      <a href={'https://polygonscan.com/address/0x2ce684d4ba8e47c12f5dbb474241968dc800b7ca'} target='_blank' rel="noreferrer" className='mt-2 text-white hover:text-opacity-75'>
+      {/* <a href={'https://polygonscan.com/address/0x2ce684d4ba8e47c12f5dbb474241968dc800b7ca'} target='_blank' rel="noreferrer" className='mt-2 text-white hover:text-opacity-75'>
           <div className='flex flex-row items-center pb-1'>
             <div className='pr-2 text-[.9rem]'>Contract</div><LinkOut size='12' />
           </div>
-        </a>
+        </a> */}
       <FooterItem name='Play Bird Mansion | All Rights Reserved' href='' />
     </footer>
   )

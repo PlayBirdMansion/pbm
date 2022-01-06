@@ -27,9 +27,9 @@ export const MintModal: React.FC<MintModalProps> = ({ setOpenModal }) => {
       <div ref={wrapperRef} className='relative modal-container rounded-2xl bg-[#2B2B2B] shadow-2xl flex flex-col p-5'>
         <div className='modal-close flex flex-grow justify-between'>
         <div className='pb-2 modal-title text-center text-[1.5rem] font-semibold'>
-            Mint a Bird 🎉
+            Play Bird Mansion is Sold Out 🎉
         </div>
-          <button className='text-[#949494] hover:text-[#bebebe] rounded-lg hover:bg-white hover:bg-opacity-10 px-2 bg-transparent cursor-pointer text-[25px]' onClick={() => {
+          <button className='text-[#949494] hover:text-[#bebebe] rounded-full hover:bg-white hover:bg-opacity-10 p-1.5 bg-transparent cursor-pointer text-[25px]' onClick={() => {
             setOpenModal(false);
           }}>
             X

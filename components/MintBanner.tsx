@@ -19,9 +19,9 @@ export const MintBanner: React.FC<MintBannerProps> = ({ }) => {
       </div>
       <div className='flex p-3 sm:w-1/3 justify-center'>
         <div className=' font-bold text-[2rem] items-center text-center'>
-          Free Mint!
+          SOLD OUT!
           <div className='font-normal text-[1.2rem] text-center items-center'>
-            Play Bird Mansion NFTs are now Free! Just pay the small gas fee.
+            Play Bird Mansion NFTs are now SOLD OUT! View on Opensea to buy!
           </div>
         </div>
       </div>
